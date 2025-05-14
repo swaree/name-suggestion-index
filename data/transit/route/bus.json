@@ -10732,14 +10732,17 @@
       }
     },
     {
-      "displayName": "MetroBus (Valencia)",
+      "displayName": "Metrobús (Valencia)",
       "id": "metrobus-a154e2",
       "locationSet": {
         "include": ["es-v.geojson"]
       },
       "tags": {
-        "network": "MetroBus",
+        "network": "Metrobús",
         "network:wikidata": "Q5712403",
+        "operator": "Autoritat de Transport Metropolità de València",
+        "operator:short": "ATMV",
+        "operator:wikidata": "Q26084999",
         "route": "bus"
       }
     },
@@ -19534,7 +19537,7 @@
     {
       "displayName": "Transport de les Illes Balears - Eivissa",
       "id": "transportdelesillesbalearseivissa-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["es-ib"]},
       "tags": {
         "network": "Transport de les Illes Balears - Eivissa",
         "route": "bus"
@@ -19578,7 +19581,7 @@
     {
       "displayName": "Transport públic de Mallorca",
       "id": "transportpublicdemallorca-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["es-PM"]},
       "tags": {
         "network": "Transport públic de Mallorca",
         "route": "bus"
@@ -19587,9 +19590,10 @@
     {
       "displayName": "Transport Públic Generalitat Valenciana",
       "id": "transportpublicgeneralitatvalenciana-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["es-VC"]},
       "tags": {
         "network": "Transport Públic Generalitat Valenciana",
+        "network:wikidata": "Q134462067",
         "route": "bus"
       }
     },
@@ -19607,16 +19611,17 @@
     {
       "displayName": "Transport Urbà de la Conurbació de Granollers",
       "id": "transporturbadelaconurbaciodegranollers-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["ES-B.geojson"]},
       "tags": {
         "network": "Transport Urbà de la Conurbació de Granollers",
+        "network:short": "TransGran",
         "route": "bus"
       }
     },
     {
       "displayName": "Transporte de Murcia y Pedanias",
       "id": "transportedemurciaypedanias-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["es-MC"]},
       "tags": {
         "network": "Transporte de Murcia y Pedanias",
         "network:wikidata": "Q109925389",
@@ -19626,7 +19631,7 @@
     {
       "displayName": "Transporte Metropolitano de Segovia",
       "id": "transportemetropolitanodesegovia-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["es-SG"]},
       "tags": {
         "network": "Transporte Metropolitano de Segovia",
         "network:wikidata": "Q48781963",
@@ -19646,7 +19651,7 @@
     {
       "displayName": "Transporte Público de Aragón",
       "id": "transportepublicodearagon-cbced8",
-      "locationSet": {"include": ["es"]},
+      "locationSet": {"include": ["es-AR"]},
       "tags": {
         "network": "Transporte Público de Aragón",
         "network:short": "TPA",
